@@ -1,0 +1,150 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    
+    
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;  
+}
+.gumi{
+    text-align: center;
+    font: 400px;
+    margin: 0;
+}
+/* .logo-center{
+    text-align: center;
+} */
+img{
+    width: 90px;
+    height: 50px;
+}
+.first{
+    display: flex;
+}
+.first .item{
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.previous{
+    margin: 0;
+}
+.next{
+    margin: 0;
+}
+
+.wrapper{
+    width: 1440px;
+    height: 700px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+}
+.footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 520px;
+}
+.footer hr {
+    margin: 0 15px;
+}
+.footer u{
+    padding-left: 130px;
+
+}
+.footer p {
+
+    padding-left: 60px;
+
+}
+.stand{
+    transform: rotate(270deg);
+    
+    position: absolute;
+    top: 60%;
+    left: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box
+
+}
+.stand u{
+    padding-right: 20px;
+}
+
+
+.text .line1{
+
+    margin: 0;
+    
+}
+.text {
+
+    position: absolute;
+    bottom: 80px;
+    left: 500px;
+    font-size: 13px;
+}
+.hong{
+    width: 720px;
+    height: 700px;
+    background: #ede0df;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.5;
+}
+.right-Line{
+    top:20%;
+    left: 100px;
+    position: absolute;
+    font-size: 20px
+}
+.right-Line p{
+
+    font-size: 50px
+}
+.left hr
+{
+margin-left: -45px;
+
+transform: rotate(90deg);
+}
+.line1 .line1{
+    margin-left: -45px
+}
+.left{
+    position: absolute;
+    top:35%;
+    right: 20px;
+}
+.right img{
+    width: 280px;
+    height: 545px;
+    position:absolute;
+    top: 80px;
+    right:240px;
+    z-index: 100;
+}
+.hinhthoi img {
+    width: 350px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    right: 205px;
+
+}
